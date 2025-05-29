@@ -1,2 +1,10 @@
 class Familia:
-    def_init_(self,nombre,integrantes,direccion)   
+    def __init__(self, nombre, integrantes, direccion):
+        self.nombre = nombre
+        self.integrantes = integrantes
+        self.direccion = direccion
+        self.materiales = []
+        
+def registrar_material(self, material):
+        self.materiales.append(material)
+        
